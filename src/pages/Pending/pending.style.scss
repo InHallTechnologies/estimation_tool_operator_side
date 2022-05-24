@@ -1,0 +1,44 @@
+.pending-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .logo {
+        width: 200px;
+        margin: 20px;
+    }
+
+    .pending-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F1F6F7;
+        flex-wrap: wrap;
+        height: 100%;
+
+        .pending-image {
+            width: 500px;
+            margin-top: 50px;
+        }
+
+        .pending-content {
+            color: #444;
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-top: 15px;
+            padding: 0 100px;
+            text-align: center;
+        }
+
+        .submit-button {
+            height: 40px;
+            background-color: #FE5C1C;
+            color: #fff;
+            font-weight: 500;
+            padding: 0 30px;
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,42 @@
+.drop-down-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    .first-element {
+        grid-column: 1 / 3;
+    }
+    .second-element {
+        grid-column: 3 / 5;
+    }
+}
+.added-entry-list-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+    grid-gap: 30px;
+    .MuiInput-root {
+        background-color: #F4F8F9;
+        border-top: 8px solid #F4F8F9;
+        padding: 8px;
+    }
+    .added-entry-list-arch {
+        .added-entry-list-arch-content {
+            display: flex;      
+            align-items: center;
+            padding: 0 0px;
+            .added-entry-list-title {
+                flex: 1;
+                font-size: 1.5rem;
+            }
+            .added-entry-list-value {
+                flex: 0.5;
+                font-size: 1.5rem;
+            }
+            .delete-entry {
+                width: 20px;
+                cursor: pointer;
+            }
+        }
+       
+    }
+}
